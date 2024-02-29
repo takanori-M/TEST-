@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:test1/main.dart';
+import "package:test1/chat_screen.dart";
 
 class MessageScreen extends StatelessWidget {
   const MessageScreen({
@@ -13,7 +14,7 @@ class MessageScreen extends StatelessWidget {
         ListTile(
           onTap: () {
             Navigator.of(context).push(MaterialPageRoute(builder: (BuildContext context) {
-              return ChatScreen();
+              return ChatScreens();
             }));
           },
           contentPadding: const EdgeInsets.symmetric(
