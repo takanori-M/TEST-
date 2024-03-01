@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:test1/main.dart';
 import "package:test1/chat_screen.dart";
 
 class MessageScreen extends StatelessWidget {
